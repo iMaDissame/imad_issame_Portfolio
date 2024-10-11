@@ -1,0 +1,51 @@
+/* Add these styles to your CSS file */
+.video-modal .modal-body {
+    padding: 0;
+    background-color: #000;
+  }
+  
+  .video-container {
+    position: relative;
+    width: 100%;
+    background-color: #000;
+  }
+  
+  .video-container video {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .video-controls {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .video-container:hover .video-controls {
+    opacity: 1;
+  }
+  
+  .video-controls button {
+    color: white;
+    padding: 5px 10px;
+  }
+  
+  .time-slider {
+    flex-grow: 1;
+    margin: 0 10px;
+    height: 4px;
+  }
+  
+  .time-display {
+    color: white;
+    margin-right: 10px;
+    font-size: 14px;
+  }

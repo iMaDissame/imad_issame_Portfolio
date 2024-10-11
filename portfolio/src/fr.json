@@ -1,0 +1,206 @@
+{
+  "__comment_!!!!!!!": "1st is equivalent to Home Content i changed it to go away from confusion on Navbr as well as 2nd that represents AboutCard Content 3rd represent About Content ",
+  "navbar": {
+    "home": "Accueil",
+    "about": "À propos",
+    "projects": "Projets",
+    "resume": "CV",
+    "certificate": "Certificat"
+  },
+    "1st": {
+      "greeting": "Salut !",
+      "introduction": "JE SUIS",
+      "name": "GHAOURI Zouhair",
+      "title": "PERMETTEZ-MOI DE ME PRÉSENTER",
+      "intro": "Dès le moment où j'ai écrit ma première ligne de code, j'ai découvert une passion pour la résolution de problèmes et l'innovation. Au fil du temps, j'ai affiné mes compétences et je continue de progresser dans le domaine de l'ingénierie logicielle.",
+      "skills": "Je maîtrise des technologies telles que Python avec Django, JavaScript avec React.js, et PHP avec Laravel, ainsi qu'une solide maîtrise des éléments essentiels du front-end comme HTML, CSS et Bootstrap.",
+      "interests": "Mes domaines d'intérêt sont le Cloud computing, le DevOps et l'Intelligence Artificielle, où j'aspire à construire des solutions qui favorisent l'efficacité et ouvrent de nouvelles possibilités en technologie.",
+      "projects": "Chaque fois que possible, je canalise ma passion pour le développement dans des projets, en utilisant des frameworks modernes et des outils comme React.js pour donner vie aux idées. Je suis motivé par le désir de repousser les limites, d'apprendre continuellement et de contribuer à l'avenir de la technologie.",
+      "hobbies": "En dehors de la technologie, je suis passionné par le sport et activement impliqué dans le bénévolat, ce qui m'aide à grandir personnellement tout en redonnant à la communauté.",
+      "findMe": "RETROUVEZ-MOI SUR",
+      "connect": "N'hésitez pas à me contacter"
+    },
+    "common": {
+      "introduce": "PRÉSENTER",
+      "problemSolving": "résolution de problèmes",
+      "innovation": "innovation",
+      "pythonDjango": "Python avec Django",
+      "javascriptReact": "JavaScript avec React.js",
+      "phpLaravel": "PHP avec Laravel",
+      "html": "HTML",
+      "css": "CSS",
+      "bootstrap": "Bootstrap",
+      "cloudComputing": "Cloud computing",
+      "devOps": "DevOps",
+      "artificialIntelligence": "Intelligence Artificielle",
+      "modernFrameworks": "frameworks modernes",
+      "reactjs": "React.js",
+      "sports": "sport",
+      "volunteering": "bénévolat"
+    },
+    "2nd": {
+      "greeting": "Bonjour à tous, je suis",
+      "name": "GHAOURI Zouhair",
+      "from": "du",
+      "country": "Maroc",
+      "education": "Je suis actuellement étudiant en 2ème année d'Ingénierie Logicielle à l'École Marocaine des Sciences de l'Ingénieur.",
+      "passion": "Je suis passionné par l'exploration du Développement Web, du DevOps et de l'Intelligence Artificielle, toujours à la recherche d'opportunités pour appliquer ces technologies de pointe à des problèmes du monde réel.",
+      "otherActivities": "En dehors de la programmation, voici quelques activités que j'apprécie :",
+      "activities": {
+        "volunteering": "Le bénévolat pour développer des compétences en leadership et en travail d'équipe",
+        "hackathons": "Participer à des Hackathons pour affiner mes capacités de résolution de problèmes",
+        "learning": "L'apprentissage continu à travers des cours en ligne et des certifications",
+        "communication": "Pratiquer la communication et la collaboration dans des projets d'équipe"
+      },
+      "quote": "Toujours s'efforcer d'innover et de créer des solutions qui ont un impact positif !",
+      "footer": "Zouhair"
+    },
+    
+      "3rd": {
+        "title": "Savoir Qui",
+        "name": "SUIS-JE ",
+        "altText": "à propos",
+        "professionalSkillset": "Compétences",
+        "skillset": "Professionnelles",
+        "tools": "Outils",
+        "iUse": "J'utilise"
+      },
+      "techstack": {
+        "modelingTools": "Outils de modélisation",
+        "uml": "UML",
+        "merise": "Merise",
+        "technologies": "Technologies",
+        "databaseManagement": "Gestion de base de données"
+      },
+      "typewriter": {
+        "softwareEngineeringStudent": "Étudiant en ingénierie logicielle",
+        "webDeveloper": "Développeur web",
+        "mernStackDeveloper": "Développeur Full-Stack",
+        "openSourceContributor": "Contributeur Open Source"
+      },
+      "resumezouhair": {
+        "title": "Mon CV",
+        "download": "Télécharger le CV (PDF)"
+      }
+      ,
+      "certificates": {
+        "title": "Certificats",
+        "laravelDescription": "Ce certificat met en évidence ma plongée approfondie dans le framework Laravel et PHP, soulignant l'application pratique de ces technologies dans le développement web moderne. Les principaux apprentissages incluent : la maîtrise de l'intégration de PHP dans HTML et le scripting côté serveur, l'exploration des fonctionnalités avancées de Laravel telles que le middleware et l'authentification, l'acquisition des meilleures pratiques en matière de sécurité avec la protection CSRF, la sécurité des sessions et la validation des entrées utilisateur, et la gestion des bases de données via les migrations et Eloquent ORM pour une gestion efficace des projets.",
+        "softwareEngineeringDescription": "Ce certificat représente mon expertise en ingénierie logicielle, axée sur la conception de logiciels et la gestion de projets. Au cours de cette formation, j'ai acquis des compétences essentielles en architecture logicielle, interaction homme-machine et recherche et conception. De plus, j'ai développé des compétences en test de logiciels et gestion de projets, me permettant de superviser les projets de manière efficace et d'assurer une livraison de logiciels de haute qualité.",
+        "webDevelopmentDescription": "Ce certificat démontre ma compétence en HTML, CSS et JavaScript pour les développeurs web. Dans ce cours, j'ai développé une solide base en HTML et CSS, essentielle pour créer des pages web visuellement attrayantes et structurées. De plus, j'ai acquis des compétences pratiques en développement web, me permettant de créer des applications web interactives et dynamiques en utilisant JavaScript.",
+        "advancedStylingDescription": "Ce certificat en stylisme avancé avec design réactif met en lumière mon expertise dans la création de mises en page adaptatives. J'ai appris à utiliser les outils de navigation pour le design réactif, en soulignant l'importance d'une approche 'mobile-first'. Ce cours m'a équipé des compétences pour écrire des règles CSS efficaces pour les vues mobiles et de grande taille, améliorant ainsi l'expérience utilisateur sur différents appareils. Les compétences clés acquises incluent HTML, CSS, design interactif, développement web et opérations stratégiques.",
+        "promptEngineeringDescription": "Ce certificat en ingénierie de prompt pour ChatGPT démontre ma capacité à travailler efficacement avec de grands modèles de langage. J'ai appris à appliquer des techniques d'ingénierie de prompt pour exploiter les puissantes capacités de modèles comme ChatGPT. Le cours a couvert l'utilisation de modèles de prompt et a fourni des idées sur la création d'applications complexes basées sur des prompts pouvant être utilisées dans divers contextes, y compris l'utilisation personnelle, les affaires et l'éducation."
+      },
+      "footer": {
+        "designer": "Conçu et développé par GHAOURI Zouhair",
+        "copyright": "Droit d'auteur © {{year}} ZG"
+      },
+      "projects": {
+  "heading": {
+    "recent": "Mes Travaux",
+    "works": " Récents"
+  },
+  "subheading": "Voici quelques projets récents sur lesquels j'ai travaillé.",
+  "welcomeImmo": {
+    "title": "Welcome Immo",
+    "description": "Welcome Immo révolutionne l'expérience immobilière avec une plateforme moderne et conviviale. Conçue pour les professionnels de l'immobilier et les clients à la recherche de leur maison de rêve, elle simplifie la gestion des propriétés et la communication client. Avec des notifications intelligentes et un chatbot alimenté par l'IA, Welcome Immo rend la gestion des annonces et la connexion avec les clients faciles, garantissant un parcours fluide et agréable dans le monde de l'immobilier.",
+    "technologies": [
+      "React.js",
+      "Laravel",
+      "Pusher pour les notifications en temps réel",
+      "API OpenAI pour la fonctionnalité de chatbot",
+      "MySQL pour une gestion robuste des données"
+    ],
+    "features": [
+      "Outils de gestion et de liste de propriétés efficaces",
+      "Chatbot alimenté par l'IA pour un support administratif fluide",
+      "Système de notification en temps réel pour les administrateurs et les clients",
+      "Fonctionnalités avancées de recherche et de filtrage pour une recherche de propriété sur mesure"
+    ]
+  },
+  "dreamTravel": {
+    "title": "Dream Travel",
+    "description": "Dream Travel est le compagnon ultime pour vos aventures ! Conçue spécifiquement pour explorer Marrakech, cette application facilite la découverte des attractions touristiques, des hébergements et des options de restauration. Avec des suggestions de voyage personnalisées basées sur votre localisation actuelle et un chatbot intelligent pour une assistance en déplacement, Dream Travel transforme votre voyage en une expérience inoubliable.",
+    "technologies": [
+      "Python",
+      "Django",
+      "API Google Maps",
+      "Beautiful Soup pour le web scraping",
+      "TensorFlow pour le chatbot IA"
+    ],
+    "features": [
+      "Recommandations personnalisées en temps réel basées sur la localisation",
+      "Chatbot IA interactif pour des conseils de voyage instantanés",
+      "Tableau de bord administratif complet pour gérer les informations touristiques",
+      "Intégration transparente avec les services basés sur la localisation pour des expériences sur mesure"
+    ]
+  },
+  "chestXRay": {
+    "title": "Radiographie Thoracique",
+    "description": "Radiographie Thoracique est une application innovante qui utilise des techniques avancées d'apprentissage automatique pour évaluer les images de radiographies thoraciques, détecter la pneumonie et générer des rapports de santé complets. Les utilisateurs peuvent également accéder à un chatbot pour obtenir des informations médicales, des symptômes et des médicaments.",
+    "technologies": [
+      "Python",
+      "Django",
+      "TensorFlow pour le chatbot IA",
+      "Beautiful Soup pour le web scraping"
+    ],
+    "features": [
+      "Détection de la pneumonie à partir d'images radiographiques",
+      "Génération de rapports de santé détaillés",
+      "Chatbot interactif pour les requêtes médicales",
+      "Recherche de médecins par spécialisation et localisation",
+      "Données sourcées par web scraping pour la précision"
+    ]
+  },
+  "rideTogether": {
+    "title": "Covoiturage Ensemble",
+    "description": "Covoiturage Ensemble est votre solution ultime pour un covoiturage sans faille ! Cette application web simplifie le processus de réservation d'un véhicule avec son conducteur, rendant le voyage plus accessible et pratique pour tous.",
+    "technologies": [
+      "PHP",
+      "MySQL",
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "features": [
+      "Interface conviviale de réservation de véhicules",
+      "Communication sécurisée entre clients et conducteurs",
+      "Gestion efficace des demandes de trajet et des horaires"
+    ]
+  },
+  "disneyDataExploration": {
+    "title": "Exploration des Données Disney",
+    "description": "Plongez dans le monde enchanteur de Disney à travers notre projet d'Analyse Exploratoire de Données ! En analysant le jeu de données Disney, ce projet révèle des tendances cachées et des relations dans les films et séries bien-aimés.",
+    "technologies": [
+      "Python",
+      "Pandas",
+      "Matplotlib",
+      "Seaborn",
+      "Jupyter Notebook"
+    ],
+    "features": [
+      "Aperçus sur les meilleures catégories et réalisateurs",
+      "Visualisations des performances des acteurs et des classements des séries",
+      "Identification de contenus similaires basée sur les caractéristiques textuelles",
+      "Analyse des tendances sur l'orientation du contenu Disney au fil des ans"
+    ]
+  }
+},
+"projectCard": {
+  "details": "Détails",
+  "demo": "Démo"
+},
+"detailsModal": {
+  "description": "Description",
+  "technologiesUsed": "Technologies Utilisées",
+  "keyFeatures": "Caractéristiques Principales",
+  "close": "Fermer",
+  "watchDemo": "Voir Démo"
+},
+"videoModal": {
+  "playError": "Impossible de lire la vidéo.",
+  "loadError": "Erreur de chargement de la vidéo.",
+  "unsupportedBrowser": "Votre navigateur ne prend pas en charge la balise vidéo."
+}
+
+  }
