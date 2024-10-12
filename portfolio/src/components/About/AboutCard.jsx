@@ -36,10 +36,10 @@ function AboutCard() {
             </li>
           </ul>
 
-          <p style={{ color: "#f67367 " }}>
+          <p style={{ color: " rgba(222, 130, 235, 0.911)" }}>
             "{t('2nd.quote')}"
           </p>
-          <footer className="blockquote-footer">{t('2nd.footer')} GHAOURI</footer>
+          <footer className="blockquote-footer">{t('2nd.footer')} </footer>
         </blockquote>
       </Card.Body>
     </Card>

@@ -4,57 +4,57 @@
     "about": "About",
     "projects": "Projects",
     "resume": "Resume",
-     "certificate": "Certificate"
+    "certificate": "Certificate"
   },
-    "1st": {
-      "greeting": "Hi There!",
-      "introduction": "I'M",
-      "name": "GHAOURI Zouhair",
-      "title": "LET ME INTRODUCE MYSELF",
-      "intro": "From the moment I wrote my first line of code, I discovered a passion for problem-solving and innovation. Over time, I have honed my skills and continue to grow in the field of software engineering.",
-      "skills": "I'm proficient in technologies such as Python with Django, JavaScript with React.js, and PHP with Laravel, along with a strong command of front-end essentials like HTML, CSS, and Bootstrap.",
-      "interests": "My areas of interest lie in Cloud computing, DevOps, and Artificial Intelligence, where I aspire to build solutions that drive efficiency and unlock new possibilities in technology.",
-      "projects": "Whenever possible, I channel my passion for development into projects, utilizing modern frameworks and tools like React.js to bring ideas to life. I'm driven by a desire to push boundaries, learn continuously, and contribute to the future of technology.",
-      "hobbies": "Outside of tech, I'm passionate about sports and actively involved in volunteering, which helps me grow personally while giving back to the community.",
-      "findMe": "FIND ME ON",
-      "connect": "Feel free to connect with me"
+  "1st": {
+    "greeting": "Hi There!",
+    "introduction": "I'M",
+    "name": "ISSAME Imad",
+    "title": "LET ME INTRODUCE MYSELF",
+    "intro": "From my very first line of code, I realized how much I enjoyed problem-solving and innovation. As I continue to grow in the field of software engineering, I constantly seek new ways to challenge myself and improve.",
+    "skills": "I have expertise in technologies like Python with Django, JavaScript with React.js, and PHP with Laravel, as well as a solid foundation in front-end development with HTML, CSS, and Bootstrap.",
+    "interests": "I am passionate about Machine Learning, Data Analysis, and Cloud Computing. My goal is to build solutions that drive efficiency and advance the capabilities of modern technology.",
+    "projects": "In every project, I aim to leverage modern frameworks and tools like React.js to bring creative ideas to life. I’m driven by a love of learning and innovation, always striving to push boundaries in technology.",
+    "hobbies": "Beyond technology, I’m a sports enthusiast and also enjoy volunteering, which helps me grow as a person and contribute positively to the community.",
+    "findMe": "FIND ME ON",
+    "connect": "Feel free to connect with me"
+  },
+  "common": {
+    "introduce": "INTRODUCE",
+    "problemSolving": "problem-solving",
+    "innovation": "innovation",
+    "pythonDjango": "Python with Django",
+    "javascriptReact": "JavaScript with React.js",
+    "phpLaravel": "PHP with Laravel",
+    "html": "HTML",
+    "css": "CSS",
+    "bootstrap": "Bootstrap",
+    "cloudComputing": "Cloud computing",
+    "devOps": "DevOps",
+    "artificialIntelligence": "Artificial Intelligence",
+    "modernFrameworks": "modern frameworks",
+    "reactjs": "React.js",
+    "sports": "sports",
+    "volunteering": "volunteering"
+  },
+  "2nd": {
+    "greeting": "Hi Everyone, I am",
+    "name": "ISSAME Imad",
+    "from": "from",
+    "country": "Morocco",
+    "education": "I am currently a 2nd-year Software Engineering student with a focus on Machine Learning and Artificial Intelligence.",
+    "passion": "I have a deep interest in exploring Web Development, DevOps, and Machine Learning, with the goal of applying cutting-edge technologies to real-world challenges.",
+    "otherActivities": "In addition to coding, here are some activities I enjoy:",
+    "activities": {
+      "volunteering": "Volunteering to develop leadership and teamwork skills",
+      "hackathons": "Participating in Hackathons to refine problem-solving abilities",
+      "learning": "Continuous Learning through Online Courses and Certifications",
+      "communication": "Practicing Communication and Collaboration in Team Projects"
     },
-    "common": {
-      "introduce": "INTRODUCE",
-      "problemSolving": "problem-solving",
-      "innovation": "innovation",
-      "pythonDjango": "Python with Django",
-      "javascriptReact": "JavaScript with React.js",
-      "phpLaravel": "PHP with Laravel",
-      "html": "HTML",
-      "css": "CSS",
-      "bootstrap": "Bootstrap",
-      "cloudComputing": "Cloud computing",
-      "devOps": "DevOps",
-      "artificialIntelligence": "Artificial Intelligence",
-      "modernFrameworks": "modern frameworks",
-      "reactjs": "React.js",
-      "sports": "sports",
-      "volunteering": "volunteering"
-    },
-    "2nd": {
-      "greeting": "Hi Everyone, I am",
-      "name": "GHAOURI Zouhair",
-      "from": "from",
-      "country": "Morocco",
-      "education": "I am currently a 2nd-year Software Engineering student at the Moroccan School of Engineering Sciences.",
-      "passion": "I am passionate about exploring Web Development, DevOps, and Artificial Intelligence, always looking for opportunities to apply these cutting-edge technologies to real-world problems.",
-      "otherActivities": "Apart from coding, here are some activities I enjoy:",
-      "activities": {
-        "volunteering": "Volunteering to develop leadership and teamwork skills",
-        "hackathons": "Participating in Hackathons to hone problem-solving abilities",
-        "learning": "Continuous Learning through Online Courses and Certifications",
-        "communication": "Practicing Communication and Collaboration in Team Projects"
-      },
-      "quote": "Always striving to innovate and create solutions that make a positive impact!",
-      "footer": "Zouhair"
-    },
-    "3rd": {
+    "quote": "Always striving to innovate and create impactful solutions!",
+    "footer": "Imad"
+  },
+  "3rd": {
     "title": "Know Who",
     "name": "I'M",
     "altText": "about",
@@ -70,136 +70,83 @@
     "technologies": "Technologies",
     "databaseManagement": "Database Management"
   },
-    
-        "typewriter": {
-          "softwareEngineeringStudent": "Software Engineering student",
-          "webDeveloper": "Web Developer",
-          "mernStackDeveloper": "Full-Stack Developer",
-          "openSourceContributor": "Saas Developer"
-        },
-        "resumezouhair": {
-          "title": "My Resume",
-          "download": "Download CV (PDF)"
-        },
-      
-          "certificates": {
-            "title": "Certificates",
-            "laravelDescription": "This certificate highlights my deep dive into the Laravel framework and PHP, emphasizing the practical application of these technologies in modern web development. Key learnings include: mastering PHP integration into HTML and server-side scripting, exploring advanced Laravel features like middleware and authentication, acquiring security best practices with CSRF protection, session security, and user input validation, and managing databases through migrations and Eloquent ORM for effective project management.",
-            "softwareEngineeringDescription": "This certificate represents my expertise in Software Engineering, focusing on Software Design and Project Management. Throughout this course, I gained essential skills in Software Architecture, Human-Computer Interaction, and Research and Design. Additionally, I developed competencies in Software Testing and Project Management, enabling me to oversee projects efficiently and ensure high-quality software delivery.",
-            "webDevelopmentDescription": "This certificate demonstrates my proficiency in HTML, CSS, and JavaScript for Web Developers. In this course, I developed a strong foundation in HTML and CSS, essential for crafting visually appealing and structured web pages. Additionally, I gained practical skills in web development, enabling me to create interactive and dynamic web applications using JavaScript.",
-            "advancedStylingDescription": "This certificate in Advanced Styling with Responsive Design highlights my expertise in creating adaptive layouts. I learned to utilize browser tools for responsive design, emphasizing the importance of a 'mobile-first' approach. This course equipped me with the skills to write effective CSS rules for both mobile and large-screen views, enhancing user experience across devices. Key skills gained include HTML, CSS, interactive design, web development, and strategic operations.",
-            "promptEngineeringDescription": "This certificate in Prompt Engineering for ChatGPT demonstrates my ability to work effectively with large language models. I learned to apply prompt engineering techniques to harness the powerful capabilities of models like ChatGPT. The course covered the use of prompt patterns and provided insights on creating complex prompt-based applications that can be leveraged in various contexts, including personal use, business, and education."
-          },
-          "footer": {
-          "designer": "Designed and Developed by GHAOURI Zouhair",
-          "copyright": "Copyright © {{year}} ZG"
-        },
-        "projects": {
-          "heading": {
-            "recent": "My Recent",
-            "works": "Works"
-          },
-          "subheading": "Here are a few projects I've worked on recently.",
-          "welcomeImmo": {
-            "title": "Welcome Immo",
-            "description": "Welcome Immo revolutionizes the real estate experience with a modern, user-friendly platform. Designed for both real estate professionals and clients in search of their dream homes, it streamlines property management and client communication. Featuring intelligent notifications and an AI-driven chatbot, Welcome Immo makes managing listings and connecting with clients effortless, ensuring a smooth and enjoyable journey in the world of real estate.",
-            "technologies": [
-              "React.js",
-              "Laravel",
-              "Pusher for real-time notifications",
-              "OpenAI API for chatbot functionality",
-              "MySQL for robust data management"
-            ],
-            "features": [
-              "Efficient property listing and management tools",
-              "AI-powered chatbot for seamless admin support",
-              "Real-time notification system for both admins and clients",
-              "Advanced search and filtering capabilities for a tailored property search"
-            ]
-          },
-          "dreamTravel": {
-            "title": "Dream Travel",
-            "description": "Dream Travel is the ultimate companion for your adventures! Specifically designed for exploring Marrakech, this app makes discovering tourist attractions, accommodations, and dining options a breeze. With personalized travel suggestions based on your current location and a smart AI chatbot for on-the-go assistance, Dream Travel transforms your journey into an unforgettable experience.",
-            "technologies": [
-              "Python",
-              "Django",
-              "Google Maps API",
-              "Beautiful Soup for web scraping",
-              "TensorFlow for AI chatbot"
-            ],
-            "features": [
-              "Real-time personalized recommendations based on location",
-              "Interactive AI chatbot for instant travel guidance",
-              "Comprehensive admin dashboard for managing tourist information",
-              "Seamless integration with location-based services for tailored experiences"
-            ]
-          },
-          "chestXRay": {
-            "title": "Chest X-Ray",
-            "description": "Chest X-Ray is an innovative application that leverages advanced machine learning to assess chest X-ray images, detecting pneumonia and generating comprehensive health reports. Users can also access a chatbot for medical information, symptoms, and medications.",
-            "technologies": [
-              "Python",
-              "Django",
-              "TensorFlow for AI chatbot",
-              "Beautiful Soup for web scraping"
-            ],
-            "features": [
-              "Pneumonia detection from X-ray images",
-              "Comprehensive health report generation",
-              "Interactive chatbot for medical queries",
-              "Doctor search by specialization and location",
-              "Data sourced from web scraping for accuracy"
-            ]
-          },
-          "rideTogether": {
-            "title": "Ride Together",
-            "description": "Ride Together is your ultimate solution for seamless carpooling! This web app simplifies the process of booking a vehicle along with its driver, making travel more accessible and convenient for everyone.",
-            "technologies": [
-              "PHP",
-              "MySQL",
-              "HTML",
-              "CSS",
-              "JavaScript"
-            ],
-            "features": [
-              "User-friendly vehicle booking interface",
-              "Secure communication between clients and drivers",
-              "Efficient management of ride requests and schedules"
-            ]
-          },
-          "disneyDataExploration": {
-            "title": "Disney Data Exploration",
-            "description": "Dive into the enchanting world of Disney through our Exploratory Data Analysis project! By analyzing the Disney dataset, this project uncovers hidden trends and relationships in beloved films and series.",
-            "technologies": [
-              "Python",
-              "Pandas",
-              "Matplotlib",
-              "Seaborn",
-              "Jupyter Notebook"
-            ],
-            "features": [
-              "Insights into the top categories and directors",
-              "Visualizations of actor performance and series rankings",
-              "Identification of similar content based on text features",
-              "Trend analysis on the focus of Disney's content over the years"
-            ]
-          }
-        },
-        "projectCard": {
-          "details": "Details",
-          "demo": "Demo"
-        },
-        "detailsModal": {
-          "description": "Description",
-          "technologiesUsed": "Technologies Used",
-          "keyFeatures": "Key Features",
-          "close": "Close",
-          "watchDemo": "Watch Demo"
-        },
-        "videoModal": {
-          "playError": "Unable to play the video.",
-          "loadError": "Error loading video.",
-          "unsupportedBrowser": "Your browser does not support the video tag."
-        }
-
+  "typewriter": {
+    "softwareEngineeringStudent": "Software Engineering student",
+    "webDeveloper": "Web Developer",
+    "mernStackDeveloper": "Full-Stack Developer",
+    "openSourceContributor": "Saas Developer"
+  },
+  "resumeimad": {
+    "title": "My Resume",
+    "download": "Download CV (PDF)"
+  },
+  "certificates": {
+    "title": "Certificates",
+    "laravelDescription": "This certificate showcases my in-depth understanding of the Laravel framework and PHP, highlighting the practical application of these technologies in modern web development. Key areas include mastering PHP integration with HTML, server-side scripting, exploring advanced Laravel features like middleware and authentication, and implementing security best practices such as CSRF protection and user input validation.",
+    "softwareEngineeringDescription": "This certificate reflects my expertise in Software Engineering, focusing on Software Design, Project Management, and the development of essential skills in Software Architecture and Human-Computer Interaction.",
+    "webDevelopmentDescription": "This certificate demonstrates my proficiency in web development with HTML, CSS, and JavaScript, providing a solid foundation to build structured and visually appealing web pages, as well as dynamic, interactive applications.",
+    "advancedStylingDescription": "This certificate in Advanced Styling with Responsive Design highlights my ability to create adaptive layouts, emphasizing a 'mobile-first' approach. Key skills gained include writing effective CSS rules for mobile and large-screen views to enhance the user experience.",
+    "promptEngineeringDescription": "This certificate in Prompt Engineering for ChatGPT demonstrates my skill in working with large language models and applying prompt engineering techniques to build intelligent, prompt-based applications."
+  },
+  "footer": {
+    "designer": "Designed and Developed by ISSAME Imad",
+    "copyright": "Copyright © {{year}} IM"
+  },
+  "projects": {
+    "heading": {
+      "recent": "My Recent",
+      "works": "Works"
+    },
+    "subheading": "Here are a few projects I've worked on recently.",
+    "welcomeImmo": {
+      "title": "Welcome Immo",
+      "description": "Welcome Immo modernizes the real estate experience with a streamlined platform for property management and client communication. Equipped with intelligent notifications and an AI chatbot, Welcome Immo simplifies the property listing process and ensures smooth interactions with clients.",
+      "technologies": [
+        "React.js",
+        "Laravel",
+        "Pusher for real-time notifications",
+        "OpenAI API for chatbot functionality",
+        "MySQL for data management"
+      ],
+      "features": [
+        "Efficient property management tools",
+        "AI-powered chatbot for administrative support",
+        "Real-time notifications for admins and clients",
+        "Advanced search and filtering features"
+      ]
+    },
+    "dreamTravel": {
+      "title": "Dream Travel",
+      "description": "Dream Travel helps you explore Marrakech effortlessly, offering personalized travel recommendations based on your current location and an intelligent chatbot for instant assistance.",
+      "technologies": [
+        "Python",
+        "Django",
+        "Google Maps API",
+        "Beautiful Soup for web scraping",
+        "TensorFlow for AI chatbot"
+      ],
+      "features": [
+        "Real-time location-based recommendations",
+        "AI chatbot for travel guidance",
+        "Comprehensive admin dashboard for managing travel info",
+        "Seamless integration with location services"
+      ]
+    }
+  },
+  "projectCard": {
+    "details": "Details",
+    "demo": "Demo"
+  },
+  "detailsModal": {
+    "description": "Description",
+    "technologiesUsed": "Technologies Used",
+    "keyFeatures": "Key Features",
+    "close": "Close",
+    "watchDemo": "Watch Demo"
+  },
+  "videoModal": {
+    "playError": "Unable to play the video.",
+    "loadError": "Error loading video.",
+    "unsupportedBrowser": "Your browser does not support the video tag."
   }
+}

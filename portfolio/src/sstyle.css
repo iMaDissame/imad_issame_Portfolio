@@ -1,17 +1,40 @@
 html {
+  /* Primary Colors */
+  --primary-light: #dcdcdc; /* Darker purple */
+  
+  /* Primary Accent Options */
+  --primary-accent-1: #f67367; /* A warm coral that adds a lively touch */
+  /* A vibrant teal that pairs well with purples */
+  --primary-accent-2: #8a5fcb; /* Darker purple */
+  --primary-accent-3: #6347d9; /* Darker middle tone */
+
+  /* Choose one of the above options for your primary accent */
+  --primary-accent: var(--primary-accent-1); /* Currently set to vibrant teal */
+
+  /* Accent Colors */
+  --accent-1: #000000; /* Even darker blue */
+  --accent-2: #2e2259; /* Very dark purple */
+  --accent-3: #f0f0f0; /* Light gray instead of pure white for less stark contrast */
+
+  /* Background Gradients */
   --section-background-color: linear-gradient(
-    to bottom left,
-    rgba(17, 16, 16, 0.582),
-    rgba(12, 8, 24, 0.904)
+    135deg,
+    #2e2259, /* Very dark purple */
+    #4a2fb9  /* Darker blue */
   );
 
   --image-gradient: linear-gradient(
     to bottom left,
-    rgba(17, 16, 16, 0.678),
-    rgba(12, 10, 22, 0.863)
+    rgba(74, 111, 235, 0.9),  /* Darker blue */
+   
   );
 
-  --imp-text-color: #c770f0;
+  /* Text Colors */
+  --main-text-color: #f0f0f0; /* Light gray for main text */
+  --imp-text-color: var(--primary-accent);
+
+  /* Hover and Interactive Elements */
+  --hover-color: #a387d9; /* Slightly darker purple for hover states */
 }
 
 .purple {
@@ -62,7 +85,7 @@ button:focus {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgba(178, 121, 216, 0.959);
+  background:#f67367;
   border-radius: 12px;
 }
 
@@ -97,7 +120,7 @@ button:focus {
 
 .navbar-toggler span {
   display: block !important;
-  background-color: #be50f4 !important;
+  background-color: #f67367 !important;
   height: 4px !important;
   width: 27px !important;
   margin-top: 5px !important;
@@ -194,7 +217,7 @@ button:focus {
   height: 5px;
   width: 0;
   border-radius: 16px;
-  background: #c95bf5;
+  background: #f67367;
   bottom: 1px;
   left: 0;
   z-index: -1;
@@ -257,7 +280,7 @@ button:focus {
 .home-section {
   position: relative;
   z-index: -1;
-  background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
+  /* background-image: var(--image-gradient), url(./Assets/home-bg.jpg); */
   background-position: top center;
   background-repeat: no-repeat;
   padding-bottom: 30px !important;
@@ -281,12 +304,12 @@ button:focus {
 }
 
 .main-name {
-  color: #cd5ff8;
+  color: #f67367;
 }
 
 .Typewriter__wrapper {
   font-size: 2.2em !important;
-  color: #be6adf !important;
+  color: #f67367 !important;
   font-weight: 600 !important;
 }
 .Typewriter__cursor {
@@ -371,7 +394,7 @@ button:focus {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background: #68187a;
+  background: #f67367 ;
   transition: 0.5s;
   transform: scale(0.9);
   z-index: -1;
@@ -379,13 +402,13 @@ button:focus {
 
 .home-social-icons:hover::before {
   transform: scale(1.1);
-  box-shadow: 0 0 15px #801f95;
+  box-shadow: 0 0 15px #f67367 ;
 }
 
 .home-social-icons:hover {
-  color: #87209e;
-  box-shadow: 0 0 5px #87209e;
-  text-shadow: 0 0 2px #87209e;
+  color: #f67367 ;
+  box-shadow: 0 0 5px #f67367 ;
+  text-shadow: 0 0 2px #f67367 ;
 }
 
 .social-icons {
@@ -395,7 +418,7 @@ button:focus {
 }
 
 .icon-colour {
-  color: #700c86 !important;
+  color: #f67367  !important;
 }
 
 /* --------- */
@@ -439,7 +462,7 @@ button:focus {
 }
 
 .blockquote-footer {
-  color: #a588c0 !important;
+  color: #f67367  !important;
 }
 /* --------- */
 /* Projects */
@@ -460,7 +483,7 @@ button:focus {
 }
 
 .project-card-view {
-  box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important;
+  box-shadow: 0 4px 5px 3px #f67367  !important;
   color: white !important;
   background-color: transparent !important;
   opacity: 0.9 !important;
@@ -470,7 +493,7 @@ button:focus {
 .project-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
-  box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important;
+  box-shadow: 0 4px 4px 5px black !important;
 }
 
 .blog-card {
@@ -518,14 +541,14 @@ button:focus {
 
 .btn-primary {
   color: #fff !important;
-  background-color: #623686 !important;
-  border-color: #623686 !important;
+  background-color: #f67367  !important;
+  border-color: #f67367 !important;
 }
 
 .btn-primary:hover {
   color: #fff !important;
-  background-color: #6d20c5d7 !important;
-  border-color: #6d20c5d7 !important;
+  background-color: #cd685f  !important;
+  border-color: #cd685f !important;
 }
 .btn:focus {
   outline: none !important;
@@ -555,12 +578,12 @@ button:focus {
   margin: 15px !important;
   padding: 10px !important;
   opacity: 0.93 !important;
-  border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
+  border: 1.7px solid #f67367  !important;
   vertical-align: middle !important;
   text-align: center !important;
   border-radius: 5px !important;
   display: table !important;
-  box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
+  box-shadow: 1px 1px 2px 2px #cd685f !important;
   overflow: hidden !important;
   transition: all 0.4s ease 0s !important;
 }
@@ -572,20 +595,26 @@ button:focus {
 }
 
 .tech-icons:hover {
-  transform: scale(1.05) !important;
+  transform: scale(1.02) !important;
   overflow: hidden !important;
-  border: 2.2px solid rgba(197, 115, 230, 0.883) !important;
+  
 }
 .tech-icon-images {
   padding: 20px !important;
-  line-height: 1.6 !important;
+  line-height: 1.3 !important;
 }
 
 .quote-card-view {
-  border: none !important;
+  border: 3px solid #f67367 !important;
+  border-radius: 10px !important; 
+  padding: 10px; 
   color: white !important;
   background-color: transparent !important;
+  font-size: 1.5rem;
+  font-weight: bold;
+  box-shadow: 0 4px 15px rgba(255, 255, 255, 0.2);
 }
+
 
 .about-activity {
   list-style: none !important;
@@ -607,7 +636,7 @@ button:focus {
   padding-top: 110px !important;
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
-  color: white !important;
+  color: #f67367 !important;
 }
 
 .resume {
@@ -652,7 +681,7 @@ button:focus {
 .resume .resume-item .resume-title {
   line-height: 18px;
   font-size: 0.9em;
-  background: #5234795d;
+  background:#f67367;
   padding: 8px 15px;
   display: inline-block;
   font-weight: 600;
@@ -727,7 +756,7 @@ button:focus {
 
 .fork-btn-inner {
   line-height: 1.4em !important;
-  background-color: #934cce5e !important;
+  background-color: #f67367 !important;
   padding: 0.25rem 1.1rem !important;
   vertical-align: middle !important;
   text-align: center !important;

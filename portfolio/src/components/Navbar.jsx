@@ -40,10 +40,10 @@ function NavBar() {
           <span style={{ 
               fontSize: '2.5rem', 
               fontWeight: 'bold', 
-              color: ' #f67367', 
+              color: '  rgba(222, 130, 235, 0.911)', 
               marginRight: '0.5rem'
             }}>
-              G
+              I
             </span>
             <span style={{
               fontSize: '1rem',
@@ -52,7 +52,7 @@ function NavBar() {
               textTransform: 'uppercase',
               letterSpacing: '1px'
             }}>
-              HAOURI ZOUHAIR 
+              SSAME IMAD 
             </span>
           </div>
         </Navbar.Brand>

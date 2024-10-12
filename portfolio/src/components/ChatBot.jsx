@@ -71,7 +71,7 @@ function DynamicLanguageSelector() {
           display: flex;
           align-items: center;
           justify-content: center;
-          background: #f67367; /* Changed the background color here */
+          background:  rgba(222, 130, 235, 0.911); /* Changed the background color here */
           box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
           transition: all 0.3s ease;
         }
@@ -79,7 +79,7 @@ function DynamicLanguageSelector() {
           transform: scale(1.1);
         }
         .selector-toggle.open {
-          background: #f67367; /* Keep the background color on open */
+          background:  rgba(222, 130, 235, 0.911); /* Keep the background color on open */
         }
         .language-options {
           position: absolute;
