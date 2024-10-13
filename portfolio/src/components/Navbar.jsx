@@ -4,17 +4,15 @@ import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
-import {
-  AiOutlineHome,
-  AiOutlineFundProjectionScreen,
-  AiOutlineUser,
-} from "react-icons/ai";
+import { AiOutlineHome, AiOutlineFundProjectionScreen, AiOutlineUser } from "react-icons/ai";
 import { CgFileDocument } from "react-icons/cg";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+
+  const isArabic = i18n.language === 'ar';
 
   function scrollHandler() {
     if (window.scrollY >= 20) {
@@ -33,26 +31,39 @@ function NavBar() {
       expand="md"
       className={navColour ? "sticky" : "navbar"}
       style={{ transition: "background-color 0.3s" }}
+      dir={isArabic ? "rtl" : "ltr"} // Set direction based on language
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex align-items-center">
-          <div style={{ display: 'flex', alignItems: 'center' }}>
-          <span style={{ 
-              fontSize: '2.5rem', 
-              fontWeight: 'bold', 
-              color: '  rgba(222, 130, 235, 0.911)', 
-              marginRight: '0.5rem'
-            }}>
+          <div
+            style={{
+              display: "flex",
+              alignItems: "center",
+              flexDirection: isArabic ? "row-reverse" : "row", // Change the direction of the name and logo
+            }}
+          >
+            <span
+              style={{
+                fontSize: "2.5rem",
+                fontWeight: "bold",
+                color: "rgba(222, 130, 235, 0.911)",
+                marginLeft: isArabic ? "0.5rem" : "0",
+                marginRight: isArabic ? "0" : "0.5rem", // Swap the margin to ensure proper alignment
+              }}
+            >
               I
             </span>
-            <span style={{
-              fontSize: '1rem',
-              fontWeight: 'normal',
-              color: 'WHITE',
-              textTransform: 'uppercase',
-              letterSpacing: '1px'
-            }}>
-              SSAME IMAD 
+            <span
+              style={{
+                fontSize: "1rem",
+                fontWeight: "normal",
+                color: "WHITE",
+                textTransform: "uppercase",
+                letterSpacing: "1px",
+                textAlign: isArabic ? "right" : "left", // Align the name correctly
+              }}
+            >
+              SSAME IMAD
             </span>
           </div>
         </Navbar.Brand>
@@ -67,7 +78,7 @@ function NavBar() {
           <span></span>
         </Navbar.Toggle>
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="ms-auto" defaultActiveKey="#home">
+          <Nav className={isArabic ? "ms-auto text-end" : "ms-auto"} defaultActiveKey="#home">
             <Nav.Item>
               <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
                 <AiOutlineHome style={{ marginBottom: "2px" }} /> {t("navbar.home")}

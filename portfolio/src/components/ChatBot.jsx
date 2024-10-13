@@ -12,6 +12,7 @@ function DynamicLanguageSelector() {
   const languages = [
     { code: 'en', name: 'English', countryCode: 'GB' },
     { code: 'fr', name: 'Français', countryCode: 'FR' },
+    { code: 'ar', name: 'العربية', countryCode: 'SA' },
   ];
 
   useEffect(() => {
@@ -49,7 +50,13 @@ function DynamicLanguageSelector() {
               onClick={() => changeLanguage(lang.code)}
               className={`language-option ${selectedLanguage === lang.code ? 'selected' : ''}`}
             >
-              <CountryFlag countryCode={lang.countryCode} svg style={{ width: '24px', height: '24px', marginRight: '10px' }} />
+             <CountryFlag 
+              countryCode={lang.countryCode} 
+              svg 
+              fallback={<span>{lang.countryCode}</span>} 
+              style={{ width: '24px', height: '24px', marginRight: '10px' }} 
+            />
+
               <span className="lang-name">{lang.name}</span>
             </button>
           ))}

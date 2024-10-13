@@ -43,7 +43,7 @@ function Certificate() {
     {
       image: certificate5,
       description: t('certificates.promptEngineeringDescription'),
-      link: "#" // Replace with the actual certificate URL
+      link: "https://coursera.org/share/f5c6efc0308327c2258a01632ab57afe" // Replace with the actual certificate URL
     },
     {
       image: certificate6,

@@ -119,7 +119,7 @@
     },
     "dreamTravel": {
       "title": "Dream Travel",
-      "description": "Dream Travel is the ultimate companion for your adventures! Specifically designed for exploring Marrakech, this app makes discovering tourist attractions, accommodations, and dining options a breeze. With personalized travel suggestions based on your current location and a smart AI chatbot for on-the-go assistance, Dream Travel transforms your journey into an unforgettable experience.",
+      "description": "Dream Travel is the ultimate companion for your adventures! Specifically designed for exploring Morocco, this app makes discovering tourist attractions, accommodations, and dining options a breeze. With personalized travel suggestions based on your current location and a smart AI chatbot for on-the-go assistance, Dream Travel transforms your journey into an unforgettable experience.",
       "technologies": [
         "Python",
         "Django",
@@ -168,8 +168,8 @@
       ]
     },
     "disneyDataExploration": {
-      "title": "Disney Data Exploration",
-      "description": "Dive into the enchanting world of Disney through our Exploratory Data Analysis project! By analyzing the Disney dataset, this project uncovers hidden trends and relationships in beloved films and series.",
+      "title": "Amazon Data Exploration",
+      "description": "Dive into the enchanting world of Amazon through our Exploratory Data Analysis project! By analyzing the Amazon dataset, this project uncovers hidden trends and relationships in beloved films and series.",
       "technologies": [
         "Python",
         "Pandas",
@@ -181,7 +181,7 @@
         "Insights into the top categories and directors",
         "Visualizations of actor performance and series rankings",
         "Identification of similar content based on text features",
-        "Trend analysis on the focus of Disney's content over the years"
+        "Trend analysis on the focus of Amazon's content over the years"
       ]
     }
   },
@@ -194,7 +194,8 @@
     "technologiesUsed": "Technologies Used",
     "keyFeatures": "Key Features",
     "close": "Close",
-    "watchDemo": "Watch Demo"
+    "watchDemo": "Watch Demo",
+    "collaborators":"Collaborator(s)"
   },
   "videoModal": {
     "playError": "Unable to play the video.",

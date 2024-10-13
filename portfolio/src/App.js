@@ -9,7 +9,7 @@ import Resume from "./components/Resume/ResumeNew";
 import Certificate from "./components/Certificate/Certificate";
 import './i18n';
 import DynamicLanguageSelector from "./components/ChatBot";
-
+import i18n from "i18next"; // Import i18next
 import {
   HashRouter as Router,
   Route,
@@ -32,6 +32,30 @@ function App() {
     return () => clearTimeout(timer);
   }, []);
 
+  // Apply RTL when the language is Arabic
+  useEffect(() => {
+    const updateDirection = (lang) => {
+      if (lang === 'ar') {
+        document.body.setAttribute("dir", "rtl");
+      } else {
+        document.body.setAttribute("dir", "ltr");
+      }
+    };
+
+    // Update the direction when the app loads
+    updateDirection(i18n.language);
+
+    // Listen to the language change event
+    i18n.on('languageChanged', (lang) => {
+      updateDirection(lang);
+    });
+
+    // Clean up the event listener when the component unmounts
+    return () => {
+      i18n.off('languageChanged', updateDirection);
+    };
+  }, []);
+
   return (
     <Router>
       <Preloader load={load} />
@@ -48,6 +72,37 @@ function App() {
         </Routes>
         <DynamicLanguageSelector/>
         <Footer />
+
+        {/* Inline JSX Styles for RTL and LTR */}
+        <style jsx="true">{`
+          body[dir="rtl"] {
+            text-align: right;
+            direction: rtl;
+          }
+
+          body[dir="ltr"] {
+            text-align: left;
+            direction: ltr;
+          }
+
+          /* Example RTL-specific adjustments */
+          .certificate-description {
+            text-align: justify;
+          }
+
+          .certificate-item {
+            display: flex;
+            flex-direction: row-reverse; /* This flips items for RTL */
+          }
+
+          @media (max-width: 767px) {
+            .certificate-description {
+              padding-top: 20px;
+              padding-bottom: 20px;
+            }
+          }
+        `}
+        </style>
       </div>
     </Router>
   );

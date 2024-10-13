@@ -122,7 +122,7 @@
     },
     "dreamTravel": {
       "title": "Dream Travel",
-      "description": "Dream Travel est le compagnon ultime pour vos aventures ! Conçue spécifiquement pour explorer Marrakech, cette application facilite la découverte des attractions touristiques, des hébergements et des options de restauration. Avec des suggestions de voyage personnalisées basées sur votre localisation actuelle et un chatbot intelligent pour une assistance en déplacement, Dream Travel transforme votre voyage en une expérience inoubliable.",
+      "description": "Dream Travel est le compagnon ultime pour vos aventures ! Conçue spécifiquement pour explorer le Maroc, cette application facilite la découverte des attractions touristiques, des hébergements et des options de restauration. Avec des suggestions de voyage personnalisées basées sur votre localisation actuelle et un chatbot intelligent pour une assistance en déplacement, Dream Travel transforme votre voyage en une expérience inoubliable.",
       "technologies": [
         "Python",
         "Django",
@@ -171,8 +171,8 @@
       ]
     },
     "disneyDataExploration": {
-      "title": "Exploration des Données Disney",
-      "description": "Plongez dans le monde enchanteur de Disney à travers notre projet d'Analyse Exploratoire de Données ! En analysant le jeu de données Disney, ce projet révèle des tendances cachées et des relations dans les films et séries bien-aimés.",
+      "title": "Exploration des Données Amazon",
+      "description": "Plongez dans le monde enchanteur de Amazon à travers notre projet d'Analyse Exploratoire de Données ! En analysant le jeu de données Amazon, ce projet révèle des tendances cachées et des relations dans les films et séries bien-aimés.",
       "technologies": [
         "Python",
         "Pandas",
@@ -184,7 +184,7 @@
         "Aperçus sur les meilleures catégories et réalisateurs",
         "Visualisations des performances des acteurs et des classements des séries",
         "Identification de contenus similaires basée sur les caractéristiques textuelles",
-        "Analyse des tendances sur l'orientation du contenu Disney au fil des ans"
+        "Analyse des tendances sur l'orientation du contenu Amazon au fil des ans"
       ]
     }
   },
@@ -197,7 +197,8 @@
     "technologiesUsed": "Technologies Utilisées",
     "keyFeatures": "Caractéristiques Principales",
     "close": "Fermer",
-    "watchDemo": "Voir Démo"
+    "watchDemo": "Voir Démo",
+    "collaborators":"Collaborateur(s)"
   },
   "videoModal": {
     "playError": "Impossible de lire la vidéo.",
