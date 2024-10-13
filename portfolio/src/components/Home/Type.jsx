@@ -9,10 +9,11 @@ function Type() {
     <Typewriter
       options={{
         strings: [
+          t('typewriter.mernStackDeveloper'),
           t('typewriter.softwareEngineeringStudent'),
           t('typewriter.webDeveloper'),
-          t('typewriter.mernStackDeveloper'),
-          t('typewriter.openSourceContributor')
+          t('typewriter.dataAnalyst'),
+          t('typewriter.openSourceContributor'),
         ],
         autoStart: true,
         loop: true,

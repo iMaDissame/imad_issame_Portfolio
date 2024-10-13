@@ -3,12 +3,33 @@ import { Container, Row, Col } from "react-bootstrap";
 import { useTranslation } from "react-i18next";
 import myImg from "../../Assets/Portrait.jpg";
 import Tilt from "react-parallax-tilt";
-import {
-  AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
-} from "react-icons/ai";
+import { AiFillGithub,  AiFillFacebook , AiFillInstagram } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+
+
+
+// List of words to highlight, including both French and English terms
+const highlightWords = [
+  "Python", "Django", "JavaScript", "React.js", "PHP", "Laravel",
+  "HTML", "CSS", "Bootstrap", "Cloud Computing", "Artificial Intelligence",
+  "Machine Learning", "Data Analysis", "Web Development", 
+  "Développement Web", "Intelligence Artificielle", "Présenter", "Introduce",
+  "DevOps", "Cloud Computing", "l'analyse de données"
+];
+
+// Function to dynamically replace and highlight matching words using regex
+const highlightTechnologies = (text) => {
+  const regex = new RegExp(`\\b(${highlightWords.join('|')})\\b`, 'gi');
+  
+  return text.split(regex).map((part, index) =>
+    highlightWords.includes(part) ? <span key={index} className="purple">{part}</span> : part
+  );
+};
+const highlightWorddd = (text, wordToHighlight) => {
+  return text.split(' ').map((word, index) => 
+    word === wordToHighlight ? <span key={index} className="purple">{word}</span> : word + ' '
+  );
+};
 
 function Home2() {
   const { t } = useTranslation();
@@ -19,24 +40,23 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              {t('1st.title').split(' ').map((word, index) => 
-                word === 'INTRODUCE' ? <span key={index} className="purple">{t('common.introduce')}</span> : word + ' '
-              )}
+            {highlightWorddd(t('1st.title'), t('common.introduce'))}
+
             </h1>
             <p className="home-about-body">
-              {t('1st.intro')}
+              {highlightTechnologies(t('1st.intro'))}
               <br />
               <br />
-              {t('1st.skills')}
+              {highlightTechnologies(t('1st.skills'))}
               <br />
               <br />
-              {t('1st.interests')}
+              {highlightTechnologies(t('1st.interests'))}
               <br />
               <br />
-              {t('1st.projects')}
+              {highlightTechnologies(t('1st.projects'))}
               <br />
               <br />
-              {t('1st.hobbies')}
+              {highlightTechnologies(t('1st.hobbies'))}
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -48,13 +68,11 @@ function Home2() {
         <Row>
           <Col md={12} className="home-about-social">
             <h1>{t('1st.findMe')}</h1>
-            <p>
-              {t('1st.connect')}
-            </p>
+            <p>{t('1st.connect')}</p>
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/Zouhair-gh"
+                  href="https://github.com/iMaDissame"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -64,17 +82,17 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://x.com/home"
+                  href="https://www.facebook.com/imad.top.16"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
-                  <AiOutlineTwitter />
+                  <AiFillFacebook />
                 </a>
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/zouhair-ghaouri-0a843b217/"
+                  href="https://www.linkedin.com/in/imad-issame-35a3702a6/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -84,7 +102,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/"
+                  href="https://www.instagram.com/i_m_imad/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
