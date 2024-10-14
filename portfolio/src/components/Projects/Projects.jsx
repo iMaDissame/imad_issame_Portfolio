@@ -400,7 +400,7 @@ function Projects() {
       imgPath: Data,
       title: "Disney Data Exploration",
       description: "projects.disneyDataExploration.description",
-      demoVideo: "https://github.com/Zouhair-gh/Disney-Data-Exploration.git",
+      demoVideo: "https://github.com/iMaDissame/Amazon-Exploratory-Data-Analysis-.git",
       technologies: ["Python", "Pandas", "Matplotlib", "Seaborn", "Jupyter Notebook"],
       features: [
         "projects.disneyDataExploration.features.0",
