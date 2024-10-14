@@ -296,7 +296,7 @@ function Projects() {
       ],
       collaborators: [
         {
-          name: "ISSAME Imad",
+          name: "GHAOURI Zouhair",
           imgPath: ImadImage,
           github: "https://github.com/Zouhair-gh",
           linkedin: "https://www.linkedin.com/in/zouhair-ghaouri-0a843b217/"
@@ -319,7 +319,7 @@ function Projects() {
       ],
       collaborators: [
         {
-          name: "ISSAME Imad",
+          name: "GHAOURI Zouhair",
           imgPath: ImadImage,
           github: "https://github.com/Zouhair-gh",
           linkedin: "https://www.linkedin.com/in/zouhair-ghaouri-0a843b217/"
@@ -347,7 +347,7 @@ function Projects() {
       ],
       collaborators: [
         {
-          name: "ISSAME Imad",
+          name: "GHAOURI Zouhair",
           imgPath: ImadImage,
           github: "https://github.com/Zouhair-gh",
           linkedin: "https://www.linkedin.com/in/zouhair-ghaouri-0a843b217/"
@@ -388,7 +388,7 @@ function Projects() {
           linkedin: "https://www.linkedin.com/in/marouane-morad-9bbb52245/"
         },
         {
-          name: "ISSAME Imad",
+          name: "GHAOURI Zouhair",
           imgPath: ImadImage,
           github: "https://github.com/Zouhair-gh",
           linkedin: "https://www.linkedin.com/in/zouhair-ghaouri-0a843b217/"
