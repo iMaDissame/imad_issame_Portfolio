@@ -286,7 +286,7 @@ function Projects() {
       imgPath: wimmo,
       title: "Welcome Immo",
       description: "projects.welcomeImmo.description",
-      demoVideo: "https://youtu.be/7FwrmWoIrHo",
+      demoVideo: "https://youtu.be/wSOvbgb14tg",
       technologies: ["React.js", "Laravel", "Pusher", "OpenAI API", "MySQL"],
       features: [
         "projects.welcomeImmo.features.0",
@@ -308,7 +308,7 @@ function Projects() {
       imgPath: chestXray,
       title: "Chest X-Ray",
       description: "projects.chestXRay.description",
-      demoVideo: "https://youtu.be/_v2rzyRKMY0",
+      demoVideo: "https://youtu.be/xjLHddsjTyk",
       technologies: ["Python", "Django", "TensorFlow", "Beautiful Soup"],
       features: [
         "projects.chestXRay.features.0",
@@ -338,7 +338,7 @@ function Projects() {
       imgPath: RideTogether,
       title: "Ride Together",
       description: "projects.rideTogether.description",
-      demoVideo: "https://youtu.be/6rmYx5Nk7kQ",
+      demoVideo: "https://youtu.be/etpNp8v-LeA",
       technologies: ["PHP", "MySQL", "HTML", "CSS", "JavaScript"],
       features: [
         "projects.rideTogether.features.0",
@@ -372,7 +372,7 @@ function Projects() {
       imgPath: dreamTravel,
       title: "Dream Travel",
       description: "projects.dreamTravel.description",
-      demoVideo: "https://youtu.be/fV6PQHPus9k",
+      demoVideo: "https://youtu.be/z8pOwzI9Nbo",
       technologies: ["Python", "Django", "Google Maps API", "Beautiful Soup", "TensorFlow"],
       features: [
         "projects.dreamTravel.features.0",
