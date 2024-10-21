@@ -34,7 +34,7 @@ function NavBar() {
       dir={isArabic ? "rtl" : "ltr"} // Set direction based on language
     >
       <Container>
-        <Navbar.Brand href="/" className="d-flex align-items-center">
+      <Navbar.Brand href="/imad_issame_Portfolio/#/" className="d-flex align-items-center">
           <div
             style={{
               display: "flex",
