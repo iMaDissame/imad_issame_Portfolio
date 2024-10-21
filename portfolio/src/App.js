@@ -57,7 +57,7 @@ function App() {
   }, []);
 
   return (
-    <Router basename="/imad_issame_Portfolio">
+    <Router basename="/imad_issame_Portfolio/portfolio">
   <Preloader load={load} />
   <div className="App" id={load ? "no-scroll" : "scroll"}>
     <Navbar />
