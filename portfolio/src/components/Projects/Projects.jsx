@@ -246,6 +246,16 @@ const DetailsModal = ({ show, onHide, project }) => {
             <BsYoutube /> {t('detailsModal.watchDemo')}
           </Button>
         )}
+        {project.id === "welcomeImmo" && (
+          <Button
+            variant="success"
+            href="https://www.welcome-immo.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {t('detailsModal.visitWebsite')}
+          </Button>
+        )}
       </Modal.Footer>
     </Modal>
   );

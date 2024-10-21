@@ -95,7 +95,7 @@
   },
   "footer": {
     "designer": "Conçu et développé par ISSAME Imad",
-    "copyright": "Droit d'auteur © {{year}} IM"
+    "copyright": "IM © {{year}}  "
   },
   "projects": {
     "heading": {
@@ -198,7 +198,8 @@
     "keyFeatures": "Caractéristiques Principales",
     "close": "Fermer",
     "watchDemo": "Voir Démo",
-    "collaborators":"Collaborateur(s)"
+    "collaborators":"Collaborateur(s)",
+    "visitWebsite": "Visiter le site web"
   },
   "videoModal": {
     "playError": "Impossible de lire la vidéo.",

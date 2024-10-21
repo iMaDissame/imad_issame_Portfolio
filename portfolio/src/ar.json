@@ -93,7 +93,7 @@
     },
     "footer": {
       "designer": "تم التصميم والتطوير بواسطة عماد عصام",
-      "copyright": "حقوق الطبع والنشر © {{year}} عماد"
+      "copyright": " {{year}} ©  عماد"
     },
     "projects": {
       "heading": {
@@ -196,7 +196,8 @@
       "keyFeatures": "الميزات الرئيسية",
       "close": "إغلاق",
       "watchDemo": "مشاهدة العرض",
-      "collaborators": "المتعاونون"
+      "collaborators": "المتعاونون",
+      "visitWebsite": "زيارة الموقع"
 
     },
     "videoModal": {

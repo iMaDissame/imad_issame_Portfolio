@@ -13,7 +13,7 @@ function Type() {
           t('typewriter.softwareEngineeringStudent'),
           t('typewriter.webDeveloper'),
           t('typewriter.dataAnalyst'),
-          t('typewriter.openSourceContributor'),
+          // t('typewriter.openSourceContributor'),
         ],
         autoStart: true,
         loop: true,
