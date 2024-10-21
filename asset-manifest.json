@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/imad_issame_Portfolio/portfolio/static/css/main.c92e15d8.css",
-    "main.js": "/imad_issame_Portfolio/portfolio/static/js/main.46d53dfe.js",
+    "main.js": "/imad_issame_Portfolio/portfolio/static/js/main.356a5f63.js",
     "static/js/453.c13c3619.chunk.js": "/imad_issame_Portfolio/portfolio/static/js/453.c13c3619.chunk.js",
     "static/media/issameimad2.jpg": "/imad_issame_Portfolio/portfolio/static/media/issameimad2.66d4f6dd8a04bd7ae227.jpg",
     "static/media/issameimad1.jpg": "/imad_issame_Portfolio/portfolio/static/media/issameimad1.512272ceba64ac73f84e.jpg",
@@ -32,11 +32,11 @@
     "index.html": "/imad_issame_Portfolio/portfolio/index.html",
     "static/media/pre.svg": "/imad_issame_Portfolio/portfolio/static/media/pre.4410c5baaa673cc131da.svg",
     "main.c92e15d8.css.map": "/imad_issame_Portfolio/portfolio/static/css/main.c92e15d8.css.map",
-    "main.46d53dfe.js.map": "/imad_issame_Portfolio/portfolio/static/js/main.46d53dfe.js.map",
+    "main.356a5f63.js.map": "/imad_issame_Portfolio/portfolio/static/js/main.356a5f63.js.map",
     "453.c13c3619.chunk.js.map": "/imad_issame_Portfolio/portfolio/static/js/453.c13c3619.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c92e15d8.css",
-    "static/js/main.46d53dfe.js"
+    "static/js/main.356a5f63.js"
   ]
 }
