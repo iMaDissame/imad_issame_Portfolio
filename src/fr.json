@@ -199,7 +199,8 @@
     "close": "Fermer",
     "watchDemo": "Voir Démo",
     "collaborators":"Collaborateur(s)",
-    "visitWebsite": "Visiter le site web"
+    "visitWebsite": "Visiter le site web",
+    "viewOnGitHub": "Voir sur GitHub"
   },
   "videoModal": {
     "playError": "Impossible de lire la vidéo.",

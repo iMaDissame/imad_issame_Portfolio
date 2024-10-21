@@ -171,6 +171,9 @@ const DetailsModal = ({ show, onHide, project }) => {
     const match = url.match(regExp);
     return (match && match[2].length === 11) ? match[2] : null;
   };
+  const isGitHubRepo = (url) => {
+    return url.includes('github.com');
+  };
 
   return (
     <Modal show={show} onHide={onHide} size="lg" centered className="details-modal">
@@ -236,7 +239,16 @@ const DetailsModal = ({ show, onHide, project }) => {
       </Modal.Body>
       <Modal.Footer>
         <Button variant="secondary" onClick={onHide}>{t('detailsModal.close')}</Button>
-        {project.demoVideo && (
+        {isGitHubRepo(project.demoVideo) ? (
+          <Button
+            variant="primary"
+            href={project.demoVideo}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <BsGithub /> {t('detailsModal.viewOnGitHub')}
+          </Button>
+        ) : (
           <Button 
             variant="primary" 
             href={`https://www.youtube.com/watch?v=${getYouTubeVideoId(project.demoVideo)}`}
@@ -244,16 +256,6 @@ const DetailsModal = ({ show, onHide, project }) => {
             rel="noopener noreferrer"
           >
             <BsYoutube /> {t('detailsModal.watchDemo')}
-          </Button>
-        )}
-        {project.id === "welcomeImmo" && (
-          <Button
-            variant="success"
-            href="https://www.welcome-immo.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            {t('detailsModal.visitWebsite')}
           </Button>
         )}
       </Modal.Footer>
