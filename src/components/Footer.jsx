@@ -11,7 +11,7 @@ function Footer() {
   const { t } = useTranslation(); // Hook to get the translation function
   let date = new Date();
   let year = date.getFullYear();
-  //gggggggggggg
+  
 
   return (
     <Container fluid className="footer">
