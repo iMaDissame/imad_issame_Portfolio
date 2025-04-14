@@ -1,24 +1,23 @@
 {
   "files": {
     "main.css": "/imad_issame_Portfolio/static/css/main.e8241ff4.css",
-    "main.js": "/imad_issame_Portfolio/static/js/main.a68ac56d.js",
+    "main.js": "/imad_issame_Portfolio/static/js/main.d22eb5a1.js",
     "static/js/453.c13c3619.chunk.js": "/imad_issame_Portfolio/static/js/453.c13c3619.chunk.js",
-    "static/media/issameimad2.jpg": "/imad_issame_Portfolio/static/media/issameimad2.66d4f6dd8a04bd7ae227.jpg",
-    "static/media/issameimad1.jpg": "/imad_issame_Portfolio/static/media/issameimad1.512272ceba64ac73f84e.jpg",
+    "static/media/Imad_Resume.pdf": "/imad_issame_Portfolio/static/media/Imad_Resume.49c14e804d475fedc581.pdf",
+    "static/media/Imad_Resume_English_version.pdf": "/imad_issame_Portfolio/static/media/Imad_Resume_English_version.b7688004e9974a9fd0ee.pdf",
+    "static/media/imadissame2.png": "/imad_issame_Portfolio/static/media/imadissame2.b912c07d6c88c0ac9c77.png",
     "static/media/Unix-Workbench.jpg": "/imad_issame_Portfolio/static/media/Unix-Workbench.75b161d67291cc371aee.jpg",
     "static/media/Developers.jpg": "/imad_issame_Portfolio/static/media/Developers.2ea67f3abced48d704a4.jpg",
     "static/media/prompt.jpg": "/imad_issame_Portfolio/static/media/prompt.0c28faa464858d5a0f68.jpg",
     "static/media/Software Engineering Software Design and Project Management.jpg": "/imad_issame_Portfolio/static/media/Software Engineering Software Design and Project Management.52d34e356c72bc2cdb5a.jpg",
     "static/media/Laravel-coursera.jpg": "/imad_issame_Portfolio/static/media/Laravel-coursera.f9f1b8d6ae28e712944f.jpg",
     "static/media/Python-for-Everybody.jpg": "/imad_issame_Portfolio/static/media/Python-for-Everybody.4b7b7d4be6011d65ee37.jpg",
-    "static/media/Imad_Resume.pdf": "/imad_issame_Portfolio/static/media/Imad_Resume.bdeab2c065afc32b82f4.pdf",
     "static/media/imad.jpeg": "/imad_issame_Portfolio/static/media/imad.cbf3eca48b8ff5b10493.jpeg",
-    "static/media/Imad_Resume.png": "/imad_issame_Portfolio/static/media/Imad_Resume.8eaa96bcb6b2d4efa057.png",
-    "static/media/Imad_Resume_English_version.png": "/imad_issame_Portfolio/static/media/Imad_Resume_English_version.5831cc98767beae9527a.png",
+    "static/media/Imad_Resume.png": "/imad_issame_Portfolio/static/media/Imad_Resume.6a8be8f6055903cc8877.png",
+    "static/media/Imad_Resume_English_version.png": "/imad_issame_Portfolio/static/media/Imad_Resume_English_version.dd5130d0cc1e6d765bfa.png",
     "static/media/RideTogether.png": "/imad_issame_Portfolio/static/media/RideTogether.87fe779f8c1a6dbe8ba5.png",
     "static/media/wimmo.png": "/imad_issame_Portfolio/static/media/wimmo.18daf6e4acf78afb4e18.png",
     "static/media/AI-Career-Essentials.jpg": "/imad_issame_Portfolio/static/media/AI-Career-Essentials.f5e14e869cda7c91b6d0.jpg",
-    "static/media/Imad_Resume_English_version.pdf": "/imad_issame_Portfolio/static/media/Imad_Resume_English_version.a563f9b0a968e91b557e.pdf",
     "static/media/issameimad.jpg": "/imad_issame_Portfolio/static/media/issameimad.c28ff40ad2b69e3ba30a.jpg",
     "static/media/DreamTravel.png": "/imad_issame_Portfolio/static/media/DreamTravel.142e557df7b00929bee5.png",
     "static/media/chestXray.png": "/imad_issame_Portfolio/static/media/chestXray.1848cc32fa8b0b5bc5ba.png",
@@ -32,11 +31,11 @@
     "index.html": "/imad_issame_Portfolio/index.html",
     "static/media/pre.svg": "/imad_issame_Portfolio/static/media/pre.4410c5baaa673cc131da.svg",
     "main.e8241ff4.css.map": "/imad_issame_Portfolio/static/css/main.e8241ff4.css.map",
-    "main.a68ac56d.js.map": "/imad_issame_Portfolio/static/js/main.a68ac56d.js.map",
+    "main.d22eb5a1.js.map": "/imad_issame_Portfolio/static/js/main.d22eb5a1.js.map",
     "453.c13c3619.chunk.js.map": "/imad_issame_Portfolio/static/js/453.c13c3619.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e8241ff4.css",
-    "static/js/main.a68ac56d.js"
+    "static/js/main.d22eb5a1.js"
   ]
 }
