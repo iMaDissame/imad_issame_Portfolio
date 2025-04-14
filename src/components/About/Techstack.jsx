@@ -7,14 +7,27 @@ import {
   DiJavascript1,
   DiReact,
   DiPython,
+  DiGit,
+  DiJava,
 } from "react-icons/di";
 import {
   SiMysql,
   SiOracle,
   SiMicrosoftsqlserver,
+  SiPostgresql,
   SiPhp,
   SiDjango,
   SiLaravel,
+  SiSpringboot,
+  SiDocker,
+  SiDotnet,
+  SiFigma,
+  SiJenkins,
+  SiAzuredevops,
+  SiJira,
+  SiCsharp,
+  SiCplusplus,
+  SiC,
 } from "react-icons/si";
 import { useTranslation } from "react-i18next";
 
@@ -66,6 +79,14 @@ function Techstack() {
         <Col xs={4} md={2} className="tech-icons text-center">
           <SiDjango />
         </Col>
+        <Col xs={4} md={2} className="tech-icons text-center"><SiSpringboot /></Col>
+        <Col xs={4} md={2} className="tech-icons text-center"><SiCsharp /></Col>
+        <Col xs={4} md={2} className="tech-icons text-center"><DiJava /></Col>
+        <Col xs={4} md={2} className="tech-icons text-center"><SiDotnet /></Col>
+        <Col xs={4} md={2} className="tech-icons text-center"><SiCplusplus /></Col>
+        <Col xs={4} md={2} className="tech-icons text-center"><SiC /></Col>
+        
+        
       </Row>
 
       <h3 style={{ textAlign: "center" }} className="purple">
@@ -81,6 +102,7 @@ function Techstack() {
         <Col xs={4} md={2} className="tech-icons text-center">
           <SiMicrosoftsqlserver />
         </Col>
+        <Col xs={4} md={2} className="tech-icons text-center"><SiPostgresql /></Col>
       </Row>
     </div>
   );

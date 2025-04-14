@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import { Container, Row, Col, Carousel } from "react-bootstrap";
 import { useTranslation } from "react-i18next";
 import myImg1 from "../../Assets/issameimad.jpg";
-import myImg2 from "../../Assets/issameimad1.jpg";
-import myImg3 from "../../Assets/issameimad2.jpg";
+
+import myImg3 from "../../Assets/imadissame2.png";
 // import myImg4 from "../../Assets/issameimad3.jpg";
 import Tilt from "react-parallax-tilt";
 import { AiFillGithub, AiFillFacebook, AiFillInstagram } from "react-icons/ai";
@@ -134,7 +134,7 @@ function Home2() {
                   />
                 </Tilt>
               </Carousel.Item>
-              <Carousel.Item>
+              {/* <Carousel.Item>
                 <Tilt>
                   <img
                     src={myImg2}
@@ -144,7 +144,7 @@ function Home2() {
                     onClick={() => handleImageClick(myImg2)} // Pass clicked image to fullscreen
                   />
                 </Tilt>
-              </Carousel.Item>
+              </Carousel.Item> */}
                 <Carousel.Item>
                 <Tilt>
                   <img
